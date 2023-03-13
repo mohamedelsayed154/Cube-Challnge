@@ -1,0 +1,112 @@
+*{
+padding: 0;
+margin: 0;
+font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color:  hsl(217, 54%, 11%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 21%;
+    height: 60%;
+    background-color: rgba(225,225,225,0.1);
+    border-radius: 20PX;
+    overflow: hidden;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.img {
+   align-items: center;
+    margin: auto;
+    border-radius: 15px;
+    width: 300px;
+}
+
+
+.h {
+    color: #eee;
+    font-size: 20px;
+    padding-top: 10px;
+    transition: .5s;
+}
+
+.h:hover{
+    color: #13cebb;
+}
+.paragraph {
+    font-size: 18px;
+    color: #c1c0cb;
+}
+
+.green {
+    color: #13cebb;
+    position: relative;
+    top: -19px;
+    right: -18px;
+    
+    font-weight: bold;
+}
+
+.icon {
+  color: #13cebb;
+}
+
+.time {
+    color: #c1c0cb;
+    position: relative;
+    top: -55px;
+    left: 230px;
+}
+
+.clock {
+    color: #c1c0cb;
+}
+
+hr{
+    position: relative;
+    top: -30px;
+    right: 7px;
+   
+}
+
+.avatar {
+    width: 40px;
+    border-color: #eee;
+}
+
+.creat {
+    color: #c1c0cb;
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+}
+
+.name {
+    transition: .5s;
+    color: #eee;
+}
+
+.name:hover {
+    color: #13cebb;
+}
+
+
+.clock {
+  position: relative;
+  top: -35px;
+  left: 207px;
+}
+
+
+
